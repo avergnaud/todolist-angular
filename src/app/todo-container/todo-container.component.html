@@ -1,0 +1,14 @@
+<app-input-form
+  [buttonLabel]="'Save'"
+  (dataSent)="eventFromChild($event)"
+>
+</app-input-form>
+
+<ul>
+  <li *ngFor="let mapElement of todos | keyvalue">
+    <app-todo-item 
+      [id]="mapElement.value.id" 
+      [title]="mapElement.value.title"
+      (itemRemoved)="handleItemRemoved($event)"></app-todo-item>
+  </li>
+</ul>

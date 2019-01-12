@@ -1,5 +1,13 @@
 # TodolistAngular
 
+Communication inter composants dans angular
+
+## sources
+
+https://angular.io/guide/component-interaction
+
+https://medium.freecodecamp.org/how-to-communicate-between-components-b48ef70bf913
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.0-rc.1.
 
 ## Development server
